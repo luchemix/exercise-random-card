@@ -1,1 +1,21 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+}
+#cardBody {
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 5%;
+  width: 35%;
+  height: 500px;
+  border-radius: 5%;
+}
+
+/* #abajo{
+
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+ font-size: 50px;
+ /*padding-left: 80%; 
+*/
