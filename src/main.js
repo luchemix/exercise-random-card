@@ -26,6 +26,15 @@ let symbols = ["♠", "♣", "♦", "♥"];
 window.onload = function() {
   let randomNumber = Math.floor(Math.random() * numbers.length);
   let randomSymb = Math.floor(Math.random() * symbols.length);
+  if (symbols[randomSymb] == "♦") {
+    document.getElementById("cardSymbol").style.color = "red";
+    document.getElementById("cardNumber").style.color = "red";
+    document.getElementById("invertedSymbol").style.color = "red";
+  } else if (symbols[randomSymb] == "♥") {
+    document.getElementById("cardSymbol").style.color = "red";
+    document.getElementById("cardNumber").style.color = "red";
+    document.getElementById("invertedSymbol").style.color = "red";
+  }
 
   let topx = numbers[randomNumber];
   let bottomx = topx;
